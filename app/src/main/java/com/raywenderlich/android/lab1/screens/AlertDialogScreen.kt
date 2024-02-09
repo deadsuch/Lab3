@@ -26,7 +26,6 @@ fun AlertDialogScreen() {
 }
 
 @Composable
-@Preview
 fun MyAlertDialog() {
     val shouldShowDialog = remember { mutableStateOf(true) }
 
