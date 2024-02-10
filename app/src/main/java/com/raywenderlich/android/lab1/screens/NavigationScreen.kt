@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import com.raywenderlich.android.lab1.R
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
+import com.raywenderlich.android.lab1.screens.*
 
 @Composable
 fun NavigationScreen() {
@@ -34,6 +35,7 @@ fun NavigationScreen() {
             NavigationButton(stringResource(id = R.string.button_buttons), Screen.Buttons)
             NavigationButton(stringResource(id = R.string.button_progress), Screen.ProgressIndicator)
             NavigationButton(stringResource(id = R.string.button_alertDialog), Screen.AlertDialog)
+            NavigationButton(stringResource(id = R.string.button_row), Screen.Row)
         }
     }
 }
