@@ -31,5 +31,6 @@
     <string name="List">List</string>
     <string name="menu">Menu</string>>
     <string name="MyComposeApp" >MyComposeApp</string>
+    <string name="covers">covers</string>
 
 </resources>
