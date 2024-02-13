@@ -19,6 +19,7 @@ sealed class Screen {
     object Column : Screen()
     object Box : Screen()
     object Surface : Screen()
+    object  Scaffold : Screen()
 }
 
 object FundamentalsRouter {
