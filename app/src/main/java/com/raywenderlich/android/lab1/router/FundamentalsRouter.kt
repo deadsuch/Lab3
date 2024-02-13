@@ -17,6 +17,7 @@ sealed class Screen {
     object AlertDialog : Screen()
     object Row : Screen()
     object Column : Screen()
+    object Box : Screen()
 }
 
 object FundamentalsRouter {
